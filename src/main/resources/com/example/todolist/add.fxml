@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="361.0" prefWidth="604.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.todolist.AddController">
+    <children>
+        <Label layoutX="26.0" layoutY="42.0" text="Short Description" />
+        <TextField fx:id="Description" layoutX="149.0" layoutY="38.0" prefHeight="25.0" prefWidth="419.0" AnchorPane.leftAnchor="149.0" />
+        <Label layoutX="26.0" layoutY="128.0" text="Details" />
+        <TextArea fx:id="DetailsArea" layoutX="149.0" layoutY="79.0" prefHeight="149.0" prefWidth="421.0" wrapText="true" AnchorPane.leftAnchor="149.0" />
+        <DatePicker fx:id="Deadline" layoutX="148.0" layoutY="248.0" prefHeight="25.0" prefWidth="194.0" AnchorPane.leftAnchor="148.0" />
+        <Label layoutX="31.0" layoutY="252.0" text="Deadline" AnchorPane.leftAnchor="31.0" AnchorPane.topAnchor="252.0" />
+        <ComboBox fx:id="Categories" layoutX="386.0" layoutY="248.0" prefHeight="25.0" prefWidth="183.0" promptText="Catagories" AnchorPane.leftAnchor="386.0" />
+        <Button layoutX="492.0" layoutY="319.0" onAction="#cancel" prefHeight="25.0" prefWidth="78.0" style="-fx-background-color: F2F2F2;" text="Cancel" />
+        <Button layoutX="394.0" layoutY="319.0" onAction="#ok" prefHeight="25.0" prefWidth="78.0" style="-fx-background-color: D1E4F9;" text="OK" AnchorPane.leftAnchor="394.0" />
+    </children>
+</AnchorPane>

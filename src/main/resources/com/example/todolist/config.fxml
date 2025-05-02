@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="602.0" prefWidth="726.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label layoutX="28.0" layoutY="34.0" text="Configuration" AnchorPane.leftAnchor="38.0" AnchorPane.topAnchor="39.0">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <Separator layoutX="38.0" layoutY="79.0" prefWidth="200.0" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="28.0" AnchorPane.topAnchor="77.0" />
+        <Label text="Placer les contrôles de configuration à ce niveau!" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="100.0">
+            <font>
+                <Font name="System Bold Italic" size="18.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
